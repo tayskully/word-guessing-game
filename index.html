@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Guess Quiz Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Word Guess Quiz Game</h1>
+      <button id="startbutton">Start Game</button>
+    </header>
+    <main>
+      <div class="word-game">
+        <h2><span id="word-add"></span> J _ v _ S _ r_ pt</h2> 
+        <!-- display correct input up there ^^-->
+        <!-- <textarea id="msg" name="comments"></textarea> -->
+
+        <button id="resetbutton">clear selection</button>
+      </div>
+
+      <div class="displayed-data">
+        <!-- stats, wins, losses, time left countdown -->
+        <h1>Time left: <span id="timer">0</span>seconds</h1>
+
+        <h2>STATS</h2>
+        <h3>Wins: <span id="wins">0</span></h3>
+        <h3>Losses: <span id="losses">0</span></h3>
+      </div>
+    </main>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
